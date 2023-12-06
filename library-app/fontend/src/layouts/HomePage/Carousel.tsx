@@ -1,4 +1,5 @@
 import React from "react";
+import ReturnBook from "./ReturnBook";
 
 const Carousel = () => {
     return (
@@ -13,53 +14,23 @@ const Carousel = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="row d-flex justify-content-center align-items-center">
-                            <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="text-center">
-                                    <img
-                                        src={require("./../../Images/BooksImages/book-luv2code-1000.png")}
-                                        width="151"
-                                        height="233"
-                                        alt="book"
-                                    />
-                                    <h6 className="mt-2">Book</h6>
-                                    <p>luv2code</p>
-                                    <a className="btn main-color text-white" href="#">Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook />
+                            <ReturnBook />
+                            <ReturnBook />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="row d-flex justify-content-center align-items-center">
-                            <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="text-center">
-                                    <img
-                                        src={require("./../../Images/BooksImages/book-luv2code-1000.png")}
-                                        width="151"
-                                        height="233"
-                                        alt="book"
-                                    />
-                                    <h6 className="mt-2">Book</h6>
-                                    <p>luv2code</p>
-                                    <a className="btn main-color text-white" href="#">Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook />
+                            <ReturnBook />
+                            <ReturnBook />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="row d-flex justify-content-center align-items-center">
-                            <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="text-center">
-                                    <img
-                                        src={require("./../../Images/BooksImages/book-luv2code-1000.png")}
-                                        width="151"
-                                        height="233"
-                                        alt="book"
-                                    />
-                                    <h6 className="mt-2">Book</h6>
-                                    <p>luv2code</p>
-                                    <a className="btn main-color text-white" href="#">Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook />
+                            <ReturnBook />
+                            <ReturnBook />
                         </div>
                     </div>
                 </div>
@@ -78,17 +49,7 @@ const Carousel = () => {
             {/* Mobile: hide carousel  */}
             <div className="d-lg-none mt-3">
                 <div className="row d-flex justify-content-center align-items-center">
-                    <div className="text-center">
-                        <img
-                            src={require("./../../Images/BooksImages/book-luv2code-1000.png")}
-                            width="151"
-                            height="233"
-                            alt="book"
-                        />
-                        <h6 className="mt-2">Book</h6>
-                        <p>luv2code</p>
-                        <a className="btn main-color text-white" href="#">Reserve</a>
-                    </div>
+                    <ReturnBook />
                 </div>
             </div>
             <div className="homepage-carousel-title mt-3">
