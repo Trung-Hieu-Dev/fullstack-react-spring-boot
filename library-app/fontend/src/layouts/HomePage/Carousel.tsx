@@ -7,10 +7,9 @@ const Carousel = () => {
                 <h3>Find your next "I stayed up too late reading" book.</h3>
             </div>
 
+            {/* Desktop: display carousel */}
             <div id="carouselExampleControls" className="carousel carousel-dark mt-5 d-none d-lg-block slide"
                  data-bs-interval="false">
-
-                {/* Desktop */}
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="row d-flex justify-content-center align-items-center">
@@ -76,7 +75,7 @@ const Carousel = () => {
                 </button>
             </div>
 
-            {/* Mobile  */}
+            {/* Mobile: hide carousel  */}
             <div className="d-lg-none mt-3">
                 <div className="row d-flex justify-content-center align-items-center">
                     <div className="text-center">
